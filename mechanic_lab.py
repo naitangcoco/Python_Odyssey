@@ -34,8 +34,9 @@ print(s)
 def bad_append(item, list_argument=[]):
     list_argument.append(item)
     return list_argument
-代码解释稍后。。。。。
+
 
 print(bad_append("Apple"))  # 第一次：往盒子里放 Apple
 print(bad_append("Banana"))  # 第二次：还是同一个盒子，再放 Banana
 print(bad_append("Cherry"))  # 第三次：还是同一个盒子，再放 Cherry
+代码解释稍后。。。。。
